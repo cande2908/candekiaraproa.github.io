@@ -1,12 +1,5 @@
-@font-face:{
-	font-family: "fuentelinda";
-	src: url("fonts/")
-}
-
-
 body{
-    background-image:url("img/kiara y cande (3).png");
-	
+	background-image:url("img/kiara y cande (2).png")
 }
 
 h1{
@@ -22,6 +15,11 @@ img{
 }
 
 
+.texto{
+    width: 100%;
+    background-color: ivory;
+    text-align: center; 
+}
 
 
 
