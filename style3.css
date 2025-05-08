@@ -1,5 +1,12 @@
+@font-face{
+	font-family: "fuentelinda";
+	src: url("fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
 body{
-	background-image:url("img/kiara y cande (2).png")
+	background-image:url("img/kiara y cande (2).png");
+	font-family: "fuentelinda";
+	font-size: xx-large;
 }
 
 h1{
@@ -23,30 +30,15 @@ img{
 
 
 
-/*boton*/
-
-
-.myButton {
-	box-shadow:inset 0px 0px 20px 3px #36144d;
-	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
-	background-color:#dfbdfa;
-	border-radius:19px;
-	border:3px solid #c584f3;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Verdana;
-	font-size:18px;
-	font-weight:bold;
-	padding:6px 19px;
-	text-decoration:none;
-	text-shadow:-1px 2px 47px #9752cc;
+#listanav a{
+	text-decoration: none;
+	color: wheat;
+	font-size: 20px;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
-	background-color:#bc80ea;
+#listanav a:hover{
+	color: maroon;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
+#listanav li{
+	display: inline-block;
+	padding: 5px;
 }
