@@ -1,0 +1,48 @@
+
+@font-face{
+	font-family: "fuentelinda";
+	src: url("fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+
+body{
+    background-image:url("img/kiaraaa y candeee (1).png");
+	font-family: "fuentelinda";
+	font-size: xx-large;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: blueviolet;
+}
+
+
+img{
+    width: 80%;
+    margin-left: 1%;
+    margin-right: 1%;
+	object-fit: contain;
+}
+
+
+.texto{
+    width: 100%;
+    background-color: ivory;
+    text-align: center;
+}
+
+
+
+	
+#listanav a{
+	text-decoration: none;
+	color: wheat;
+	font-size: 20px;
+}
+#listanav a:hover{
+	color: maroon;
+}
+#listanav li{
+	display: inline-block;
+	padding: 5px;
+}
