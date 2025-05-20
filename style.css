@@ -37,3 +37,25 @@ img{
 	display: inline-block;
 	padding: 5px;
 }
+
+table th{
+	background-color: blueviolet;
+	border: gold;
+	border-style: double;
+}
+table td{
+	background-color: brown;
+	border: 5px chartreuse;
+	border-style: double;
+}
+table th{
+	
+	background-color: red;
+	border: teal;
+	border-style: dashed;
+}
+table td{
+	background-color: orchid;
+	border: 5px orangered;
+	border-style: outset;
+}
