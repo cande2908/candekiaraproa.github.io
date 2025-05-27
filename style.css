@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-    color: blueviolet;
+    color: rgb(121, 16, 124);
 }
 
 
@@ -38,24 +38,24 @@ img{
 	padding: 5px;
 }
 
-table th{
+.tablavioleta th{
 	background-color: blueviolet;
-	border: gold;
-	border-style: double;
-}
-table td{
-	background-color: brown;
-	border: 5px chartreuse;
-	border-style: double;
-}
-table th{
-	
-	background-color: red;
-	border: teal;
+	border: rgb(181, 148, 219);
 	border-style: dashed;
 }
-table td{
-	background-color: orchid;
-	border: 5px orangered;
+.tablavioleta td{
+	background-color: rgb(148, 57, 175);
+	border: 5px rgb(165, 106, 199);
+	border-style: outset;
+}
+.tablarosa th{
+	
+	background-color: rgb(202, 24, 149);
+	border: rgb(183, 83, 192);
+	border-style: dashed;
+}
+.tablarosa td{
+	background-color: rgb(199, 54, 194);
+	border: 5px rgb(189, 107, 192);
 	border-style: outset;
 }
